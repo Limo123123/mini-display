@@ -1,0 +1,21 @@
+{
+    "name": "Mini Display",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "Calliope mini Display 1.0": "github:limo123123/calliope-mini-display-10#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
