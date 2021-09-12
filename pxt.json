@@ -1,5 +1,5 @@
 {
-    "name": "Mini Display",
+    "name": "Mini Display sender",
     "description": "",
     "dependencies": {
         "core": "*",

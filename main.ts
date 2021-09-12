@@ -2,7 +2,10 @@ function Starte_Programm () {
     oled96.initDisplay()
     oled96.clearDisplay()
     basic.showIcon(IconNames.Yes)
+    radio.sendNumber(1)
 }
+radio.setGroup(100)
+radio.setTransmitPower(7)
 basic.showIcon(IconNames.No)
 oled96.initDisplay()
 oled96.clearDisplay()
